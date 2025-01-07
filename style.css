@@ -28,7 +28,7 @@ body{
 }
 .container{
     width: 1274.67px;
-    height: 4834px;
+    
 }
 
 header{
@@ -196,7 +196,7 @@ font-family: thinyekan;
 
 .cart{
     width:356.73px;
-    height:491.28px;
+    /* height:491.28px; */
     overflow: hidden;
     border-radius: 7%;
 
@@ -225,7 +225,7 @@ font-family: thinyekan;
 .newssection{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 90px;
+    /* margin-bottom: 90px; */
 }
 
 .cartnewstitle{
@@ -266,7 +266,7 @@ font-family: thinyekan;
 }
 
 .fazasection{
-    margin-top: 50px;
+    margin-top: 90px;
     display: flex;
     justify-content: space-between ;
     margin-bottom: 80px;
@@ -334,4 +334,76 @@ font-family: thinyekan;
     overflow: hidden;
     display: flex;
     justify-content: end;
+}
+
+h1.newssectiontitle{
+    margin-top: 30px;
+}
+
+hr{
+    color:rgb(160, 165, 173);
+}
+
+.footertitle{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.lasth2{
+    margin-right: 15px;
+}
+
+.line1categories{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.line2categories{
+    display: flex;
+    justify-content: center ;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+}
+
+.footercategory1{
+    
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    background: rgba(193, 21, 116, 0.1);
+    color:rgba(193, 21, 116, 1);
+}
+.footercategory2{
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    background: rgba(68, 75, 255, 0.1);
+    color:rgba(68, 75, 255, 1);
+}
+
+.aboutussection{
+    width: 1000px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    right: 120px;
+
+}
+.maincolumntext1{
+    color: var(--maincolor);
+}
+
+.columns{
+    line-height: 40px;
+}
+
+.columntext{
+    font-family: thinyekan;
+    font-weight: 200;
+    color:rgba(102, 102, 102, 1);
 }
