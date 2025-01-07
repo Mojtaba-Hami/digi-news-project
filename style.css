@@ -212,18 +212,20 @@ font-family: thinyekan;
     padding: 5px 8px;
     background: rgba(193, 21, 116, 0.1);
     color:rgba(193, 21, 116, 1);
-    border-radius: 20%;
+    border-radius: 10px;
+    margin-left: 8px;
 }
 .leftcategoryspan{
     padding: 5px 8px;
     background: rgba(68, 75, 255, 0.1);
     color:rgba(68, 75, 255, 1);
-    border-radius: 20%;
+    border-radius: 10px;
 }
 
 .newssection{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 90px;
 }
 
 .cartnewstitle{
@@ -254,4 +256,77 @@ font-family: thinyekan;
 .newsdate{
     font-family: thinyekan;
     color: rgba(102, 112, 133, 1); 
+}
+
+.newssectiontitle{
+    color: var(--maincolor);
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.fazasection{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.fazatext{
+    width: 45%;
+}
+
+.morebutton{
+    margin: 20px 0;
+    padding: 10px 20px;
+    background: var(--maincolor);
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+}
+
+.fazatitle{
+    font-size: 27px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.fazaparagraph{
+    font-size: 22px;
+    font-family: thinyekan;
+    color: rgba(102, 112, 133, 1);
+    text-align: justify;
+    line-height: 48px;
+
+
+}
+
+
+.mainfazaimg{
+    width: 520px;
+    position: relative;
+    
+}
+
+
+.secoondfazaimg{
+    width:459px;
+    position: relative;
+    bottom: 438px;
+    right: 950px;
+}
+
+.thirdfazaimg{
+    width: 306px;
+    position: relative;
+    bottom: 914px;
+    right: 224px;
+
+}
+
+.fazasectionimg{
+    width: 45%;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
 }
