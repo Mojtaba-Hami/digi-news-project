@@ -64,4 +64,56 @@ font-family: thinyekan;
     font-family: thinyekan;
 }
 
+.secondheader{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    flex-direction: column;
+}
 
+.welcomeToSite{
+    color: var(--maincolor);
+}
+
+.aboutText{
+    font-family: thinyekan;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.fantasyShape{
+    position: relative;
+    bottom: 156px;
+    left: 240px;
+}
+
+.menuSection{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    list-style-type: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 620px;
+    padding: 7px;
+
+}
+
+.menuSection{
+    position: relative;
+    bottom: 30px;
+}
+
+.menuItem{
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-family: thinyekan;
+
+}
+.menuItem:hover{
+    background-color: var(--maincolor);
+    color: white;
+}
