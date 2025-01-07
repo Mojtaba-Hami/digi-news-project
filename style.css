@@ -269,6 +269,7 @@ font-family: thinyekan;
     margin-top: 50px;
     display: flex;
     justify-content: space-between ;
+    margin-bottom: 80px;
 }
 
 .fazatext{
@@ -311,16 +312,20 @@ font-family: thinyekan;
 
 .secoondfazaimg{
     width:459px;
-    position: relative;
-    bottom: 438px;
-    right: 950px;
+    height: 479px;
+    overflow: hidden;
+    position: absolute;
+    top: 1750px;
+    right: 1060px;
 }
 
 .thirdfazaimg{
     width: 306px;
-    position: relative;
-    bottom: 914px;
-    right: 224px;
+    height: 306px;
+    overflow: hidden;
+    position: absolute;
+    top: 1580px;
+    left: 380px;
 
 }
 
