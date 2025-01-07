@@ -117,3 +117,79 @@ font-family: thinyekan;
     background-color: var(--maincolor);
     color: white;
 }
+
+.windowsimg{
+    width: 1097.63px;
+    height: 508.29px;
+    display: block;
+    margin: auto;
+}
+
+.windowspicturesection{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+
+.upImgdates{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 60px;
+
+}
+
+  .imgUpLeft{
+    position: relative;
+    color: white;
+    left: 120px;
+}
+
+.clocksvg{
+    position: relative;
+    top:9px;
+    margin-left: 7px;
+}
+.readTime{
+    font-family: thinyekan;
+}
+
+.imgUpRight{
+    position: relative;
+    color: white;
+    right: 120px;
+}
+
+.datesvg{
+    position: relative;
+    top:9px;
+    margin-left: 7px;
+} 
+
+.dateImg{
+    font-family: thinyekan;
+}
+
+.textbox{
+    background:linear-gradient(180deg,#606eb7, #8b8cde);
+    margin: auto;
+    width: 630px;
+    text-align: center;
+    padding: 30px 90px;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: relative;
+    bottom: 70px;
+    right: 2px;
+    color: white;
+}
+.firstLine{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.secondLine{
+    font-family: thinyekan;
+    font-weight: 500;
+}
