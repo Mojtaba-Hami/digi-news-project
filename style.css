@@ -1,0 +1,67 @@
+@font-face {
+    font-family: secondfont;
+    src: url("./fonts/Onvan[@fontsclub].ttf");
+}
+@font-face {
+    font-family: thinyekan;
+    src: url("./fonts/yekan\ bakh\ en\ 04\ regular.ttf");
+}
+@font-face {
+    font-family: boldyekan;
+    src: url("./fonts/yekan\ bakh\ en\ 06\ bold.ttf");
+}
+
+:root{
+ --maincolor:#474eff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: boldyekan;
+}
+.container{
+    width: 1274.67px;
+    height: 4834px;
+}
+
+header{
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerlogosvg{
+    margin-left: 5px;
+    position: relative;
+    top: 9px;
+}
+
+.digititle{
+    font-size: 20px;
+    color: #474eff;
+}
+
+.entertitle{
+font-family: thinyekan;
+}
+
+.loginButton{
+    background: var(--maincolor);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-right: 8px;
+    text-decoration: none;
+    font-family: thinyekan;
+}
+
+
